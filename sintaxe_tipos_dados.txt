@@ -1,0 +1,35 @@
+para se iniciar um novo programa:
+no terminal digitar dotnet new console.
+
+vai gerar umas pastas e uns arquivos:
+
+-bin (Binários)
+-obj (Pasta referente a arquivos de debug)
+-um arquivo com o mesmo nome da pasta.csproj (Arquivo de projeto do C#, são metadados)
+-Program.cs (Onde será desenvolvido o seu programa)
+
+Classes: 
+
+- Está relacionado com a abstração;
+- è pegar um objeto do mundo real e implementar na programação;
+- Todo nome de classe tem que iniciar com a letra maiúscula.
+- E se a palavra for composta a segunda palavra tem que ser maiúscula também.
+ex: PessoaFisica
+
+Tipos de dados:
+
+- string (caracteres, letras e números, textos em geral)
+- char (caractere unicode)
+- boleano (Verdadeiro ou falso)
+- int (Número inteiro)
+- float (Número com ponto flutuante)
+- double (Número com ponto flutuante, mais preciso que o float/ para representar duas casas decimais é necessário escrever To.String("0.00"))
+- decimal (Número com ponto flutuante direcionado para valores monetários)
+
+Obs:
+Comentar um bloco de código
+ ctrl +K+c
+ 
+ Biblioteca DateTime:
+ - Representar a data e a hora atual:
+ DateTime dataAtual = DateTime.Now

@@ -1,0 +1,15 @@
+C:\dio_botcamp_dotnet\bin\Debug\net6.0\dio_botcamp_dotnet.exe
+C:\dio_botcamp_dotnet\bin\Debug\net6.0\dio_botcamp_dotnet.deps.json
+C:\dio_botcamp_dotnet\bin\Debug\net6.0\dio_botcamp_dotnet.runtimeconfig.json
+C:\dio_botcamp_dotnet\bin\Debug\net6.0\dio_botcamp_dotnet.dll
+C:\dio_botcamp_dotnet\bin\Debug\net6.0\dio_botcamp_dotnet.pdb
+C:\dio_botcamp_dotnet\obj\Debug\net6.0\dio_botcamp_dotnet.csproj.AssemblyReference.cache
+C:\dio_botcamp_dotnet\obj\Debug\net6.0\dio_botcamp_dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\dio_botcamp_dotnet\obj\Debug\net6.0\dio_botcamp_dotnet.AssemblyInfoInputs.cache
+C:\dio_botcamp_dotnet\obj\Debug\net6.0\dio_botcamp_dotnet.AssemblyInfo.cs
+C:\dio_botcamp_dotnet\obj\Debug\net6.0\dio_botcamp_dotnet.csproj.CoreCompileInputs.cache
+C:\dio_botcamp_dotnet\obj\Debug\net6.0\dio_botcamp_dotnet.dll
+C:\dio_botcamp_dotnet\obj\Debug\net6.0\refint\dio_botcamp_dotnet.dll
+C:\dio_botcamp_dotnet\obj\Debug\net6.0\dio_botcamp_dotnet.pdb
+C:\dio_botcamp_dotnet\obj\Debug\net6.0\dio_botcamp_dotnet.genruntimeconfig.cache
+C:\dio_botcamp_dotnet\obj\Debug\net6.0\ref\dio_botcamp_dotnet.dll
