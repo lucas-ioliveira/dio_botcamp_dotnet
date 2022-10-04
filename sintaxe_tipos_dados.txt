@@ -33,3 +33,24 @@ Comentar um bloco de código
  Biblioteca DateTime:
  - Representar a data e a hora atual:
  DateTime dataAtual = DateTime.Now
+
+Operadores de Atribuição:
+
+- É representado por =
+- Serve para atribuir um valor para uma determinada variável.
+ex:
+int a = 10;
+int b = 20;
+int c = a + b;
+Console.WriteLine(c);
+
+Combinando operadores:
+- c = c + 5; // Pode ser usado também c += 5
+
+Obs: Quando usa a variável e não declara o tipo significa que está usando uma variável já existente.
+
+Convertendo tipos de variáveis(cast - casting):
+-ex
+int a = Convert.ToInt32("5"); // ou int a = int.Parse("5");
+
+Console.WriteLine(a);

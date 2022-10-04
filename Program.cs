@@ -1,12 +1,34 @@
 ﻿using dio_botcamp_dotnet.Models;
+
+// Convertendo tipod de variáveis (cast-casting)
+int a = Convert.ToInt32("5"); // ou int a = int.Parse("5");
+
+Console.WriteLine(a);
+
+
+
+
+// Combinando operadores.
+// int a = 10;
+//  int b = 20;
+
+// int c = a + b;
+
+// c = c + 5; Pode ser usado também c += 5
+
+// Console.WriteLine(c);
+
+// Operedor de atribuição.
+// int a = 10;
+// int b = 20;
+
+// int c = a + b;
+
+// Console.WriteLine(c);
+
 // Usando o DateTime
-
-DateTime dataAtual = DateTime.Now;
-Console.WriteLine(dataAtual);
-
-
-
-
+// DateTime dataAtual = DateTime.Now;
+// Console.WriteLine(dataAtual);
 
 //Pessoa pessoa1 = new Pessoa();
 
