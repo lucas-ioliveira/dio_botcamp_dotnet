@@ -7,12 +7,12 @@ namespace dio_botcamp_dotnet.Models
 {
     public class Pessoa
     {
-        public string Nome { get; set; }
+        public string nomePessoa { get; set; }
         public 	int Idade { get; set; }
 
         public void Apresentar()
         {
-            Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos.");
+            Console.WriteLine($"Olá, meu nome é {nomePessoa} e tenho {Idade} anos.");
         }
 
     }

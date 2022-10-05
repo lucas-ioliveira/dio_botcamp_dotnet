@@ -1,18 +1,73 @@
 ﻿using dio_botcamp_dotnet.Models;
+// -----------------------------------------------------------
+// Estrutura de repetição.
+// while
 
+int numero = 5;
+int contador = 0;
+
+while(contador <= 10)
+{
+    Console.WriteLine($"{contador}° execução: {numero} x {contador} = {numero * contador}");
+    contador++;
+}
+
+// For
+
+// int numero = 5;
+
+// for(int contador = 0; contador <= 10; contador++)
+// {
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+// }
+
+// -----------------------------------------------------------
+// increment
+// int numeroIncremento = 10;
+// Console.WriteLine(numeroIncremento = 10);
+
+// Console.WriteLine("Incrementando o 10");
+// // numero = numero + 1;
+// numeroIncremento++;
+
+// Console.WriteLine(numeroIncremento);
+// // -----------------------------------------------------------
+// // decrement
+// int numeroDecremento = 20;
+
+// Console.WriteLine("Decrementando o 20");
+
+// numeroDecremento--;
+
+// Console.WriteLine(numeroDecremento);
+
+// -----------------------------------------------------------
+// Chamando a classe.
+// Calculadora calc = new Calculadora();
+// calc.RaizQuadrada(9);
+// calc.Seno(30);
+// calc.Cosseno(30);
+// calc.Tangente(30);
+// calc.Potencia(3, 3);
+// calc.Somar(10, 30);
+// calc.Subtrair(10, 50);
+// calc.Multiplicar(15, 45);
+// calc.Dividir(2, 2);
+
+// -----------------------------------------------------------
 // Oprerador Lógico.
 // Operador NOT (!)
 
-bool choveu = true;
-bool estaTarde = true;
+// bool choveu = true;
+// bool estaTarde = true;
 
-if (!choveu && !estaTarde)
-{
-    Console.WriteLine("Vou pedalar!");
-}
-else{
-    Console.Write("Vou pedalar outro dia!");
-}
+// if (!choveu && !estaTarde)
+// {
+//     Console.WriteLine("Vou pedalar!");
+// }
+// else{
+//     Console.Write("Vou pedalar outro dia!");
+// }
 
 // Operador AND (&&)
 // bool possuiPresencaMinima = true;
@@ -40,7 +95,7 @@ else{
 //     Console.WriteLine("Entrada não liberada.");
 // }
 
-
+// -----------------------------------------------------------
 // Operadores condicionais.
 // switch case.
 // Console.WriteLine("Digite uma letra:");
@@ -75,8 +130,6 @@ else{
 //     Console.WriteLine("A letra digitada não é uma vogal!");
 //    }
 
-
-
 // int quantidadeEmEstoque = 3;
 // int quantidadeCompra = 0;
 // bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
@@ -98,11 +151,13 @@ else{
 //     Console.WriteLine("Desculpe, não temos a quantidade desejada.");
 // }
 
-// Convertendo tipod de variáveis (cast-casting)
+// -----------------------------------------------------------
+// Convertendo tipo de variáveis (cast-casting)
 // int a = Convert.ToInt32("5"); // ou int a = int.Parse("5");
 
 // Console.WriteLine(a);
 
+// -----------------------------------------------------------
 // Combinando operadores.
 // int a = 10;
 //  int b = 20;
@@ -113,6 +168,7 @@ else{
 
 // Console.WriteLine(c);
 
+// -----------------------------------------------------------
 // Operedor de atribuição.
 // int a = 10;
 // int b = 20;
@@ -121,16 +177,19 @@ else{
 
 // Console.WriteLine(c);
 
+// -----------------------------------------------------------
 // Usando o DateTime
 // DateTime dataAtual = DateTime.Now;
 // Console.WriteLine(dataAtual);
 
+// -----------------------------------------------------------
 //Pessoa pessoa1 = new Pessoa();
 
 //pessoa1.Nome = "Lucas";
 //pessoa1.Idade = 25;
 //pessoa1.Apresentar();
 
+// -----------------------------------------------------------
 // Exemplos tipos de dados
 
 // string apresentacao = "Olá, seja bem vindo.";

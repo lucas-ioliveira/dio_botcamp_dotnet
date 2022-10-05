@@ -1,3 +1,9 @@
+obs: Subir alterações do projeo para o github.
+git add .
+git commit -m "nome do projeto"
+git pull origin main
+
+git push origin main.
 para se iniciar um novo programa:
 no terminal digitar dotnet new console.
 
@@ -176,3 +182,25 @@ if (!choveu && !estaTarde)
 else{
     Console.Write("Vou pedalar outro dia!");
 }
+
+Operadores Aritméticos e a classe Math:
+
+ + Adição
+ - Subtração
+ * Multiplicação
+ / Divisão
+ % modulos
+ ++ Increment (Incrementa 1)
+ -- Decrement (Decrementa 1)
+ 
+ Estrutura de repetição:
+ - for
+ ex:
+ int numero = 5;
+
+for(int contador = 0; contador <= 10; contador++)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+}
+
+- while
