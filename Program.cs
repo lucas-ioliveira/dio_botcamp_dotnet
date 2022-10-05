@@ -1,12 +1,107 @@
 ﻿using dio_botcamp_dotnet.Models;
 
+// Oprerador Lógico.
+// Operador NOT (!)
+
+bool choveu = true;
+bool estaTarde = true;
+
+if (!choveu && !estaTarde)
+{
+    Console.WriteLine("Vou pedalar!");
+}
+else{
+    Console.Write("Vou pedalar outro dia!");
+}
+
+// Operador AND (&&)
+// bool possuiPresencaMinima = true;
+// double media = 7.5;
+
+// if(possuiPresencaMinima && media >= 7)
+// {
+//     Console.WriteLine("Aluno aprovado.");
+// }
+// else
+// {
+//     Console.WriteLine("Aluno reprovado");
+// }
+
+// Operador OR (Pipe, ||)
+// bool ehMaiorDeIdade = true;
+// bool possuiAutorizacaoDoResponsavel = false;
+
+// if(ehMaiorDeIdade || possuiAutorizacaoDoResponsavel);
+// {
+//     Console.WriteLine("Entrada liberada.");
+// }
+// else
+// {
+//     Console.WriteLine("Entrada não liberada.");
+// }
+
+
+// Operadores condicionais.
+// switch case.
+// Console.WriteLine("Digite uma letra:");
+// string letra = Console.ReadLine();
+
+// switch(letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("A letra digitada é uma vogal."):
+//         break;
+    
+//     default:
+//         Console.Write("A letra digitada não é uma vogal.");
+//         break;
+// }
+
+// Ex. Sem o switch
+// if(letra == "a" ||
+//    letra == "e" ||
+//    letra == "i" ||
+//    letra == "o" ||
+//    letra == "u")
+//    {
+//     Console.WriteLine("A letra digitada é uma vogal!");
+//    }
+//    else
+//    {
+//     Console.WriteLine("A letra digitada não é uma vogal!");
+//    }
+
+
+
+// int quantidadeEmEstoque = 3;
+// int quantidadeCompra = 0;
+// bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"Qunatidade comprada: {quantidadeCompra}");
+// Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+// if(quantidadeCompra == 0)
+// {
+//     Console.WriteLine("Venda invalida");
+// }
+// else if (possivelVenda)
+// {
+//     Console.WriteLine("Venda realizada.");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe, não temos a quantidade desejada.");
+// }
+
 // Convertendo tipod de variáveis (cast-casting)
-int a = Convert.ToInt32("5"); // ou int a = int.Parse("5");
+// int a = Convert.ToInt32("5"); // ou int a = int.Parse("5");
 
-Console.WriteLine(a);
-
-
-
+// Console.WriteLine(a);
 
 // Combinando operadores.
 // int a = 10;

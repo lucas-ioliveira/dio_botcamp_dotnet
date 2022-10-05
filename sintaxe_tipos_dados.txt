@@ -27,6 +27,9 @@ Tipos de dados:
 - decimal (Número com ponto flutuante direcionado para valores monetários)
 
 Obs:
+Console.WriteLine(""); // Imprimir na tela.
+Console.ReadLine(); // Ler dados que o usuário vai inserir.
+Obs:
 Comentar um bloco de código
  ctrl +K+c
  
@@ -54,3 +57,122 @@ Convertendo tipos de variáveis(cast - casting):
 int a = Convert.ToInt32("5"); // ou int a = int.Parse("5");
 
 Console.WriteLine(a);
+
+Operadores condicionais:
+
+- Possibilita mudar o fluxo de execução de seu 
+código, indicando um caminho que ele deve percorrer.
+Ex:
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+
+if (quantidadeEmEstoque >= quantidadeCompra)
+{
+    Console.WriteLine("Venda realizada.");
+}
+else
+{
+    Console.WriteLine("Desculpe, não temos a quantidade desejada.");
+}
+- Na condição if se você passar uma variável bool ele também aceita.
+ex:
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Qunatidade comprada: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+
+if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada.");
+}
+else
+{
+    Console.WriteLine("Desculpe, não temos a quantidade desejada.");
+}
+
+- if aninhado:
+int quantidadeEmEstoque = 3;
+int quantidadeCompra = 0;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Qunatidade comprada: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+if(quantidadeCompra == 0)
+{
+    Console.WriteLine("Venda invalida");
+}
+else if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada.");
+}
+else
+{
+    Console.WriteLine("Desculpe, não temos a quantidade desejada.");
+}
+
+- switch case (Alternativa ao if aninhado)
+ex:
+Console.WriteLine("Digite uma letra:");
+string letra = Console.ReadLine();
+
+switch(letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("A letra digitada é uma vogal."):
+        break;
+    
+    default:
+        Console.Write("A letra digitada não é uma vogal.");
+        break;
+}
+
+Introdução a operador lógico:
+
+- Operador OR (Pipe, ||)
+bool ehMaiorDeIdade = true;
+bool possuiAutorizacaoDoResponsavel = false;
+
+if(ehMaiorDeIdade || possuiAutorizacaoDoResponsavel);
+{
+    Console.WriteLine("Entrada liberada.");
+}
+else
+{
+    Console.WriteLine("Entrada não liberada.");
+}
+
+- Operador AND (&&)
+bool possuiPresencaMinima = true;
+double media = 7.5;
+
+if(possuiPresencaMinima && media >= 7)
+{
+    Console.WriteLine("Aluno aprovado.");
+}
+else
+{
+    Console.WriteLine("Aluno reprovado");
+}
+
+- Operador NOT (!)
+ex:
+bool choveu = true;
+bool estaTarde = true;
+
+if (!choveu && !estaTarde)
+{
+    Console.WriteLine("Vou pedalar!");
+}
+else{
+    Console.Write("Vou pedalar outro dia!");
+}
