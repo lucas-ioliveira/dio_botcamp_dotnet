@@ -1,16 +1,120 @@
 ﻿using dio_botcamp_dotnet.Models;
 // -----------------------------------------------------------
+// refatorando o menu
+// string Opcao;
+// bool exibirMenu = true;
+
+// while(exibirMenu)
+// {
+//     Console.Clear();
+//     Console.WriteLine("Digite a sua opção: ");
+//     Console.WriteLine("1 - cadastrar cliente");
+//     Console.WriteLine("2 - buscar cliente");
+//     Console.WriteLine("3 - apagar cliente");
+//     Console.WriteLine("4 - encerrar");
+
+//     Opcao = Console.ReadLine();
+
+//     switch(Opcao)
+//     {
+//         case "1":
+//         Console.WriteLine("Cadastro do cliente");
+//         break;
+
+//         case "2":
+//         Console.WriteLine("Buscar cliente");
+//         break;
+
+//         case "3":
+//         Console.WriteLine("Apagar cliente");
+//         break;
+
+//         case "4":
+//         Console.WriteLine("Encerrar");
+//         //Environment.Exit(0); para sair do programa, porém não será execultado mais nada
+//         exibirMenu = false; // com essa forma o que tiver após o laço será execultado.
+//         break;
+        
+//         default:
+//         Console.WriteLine("Opção inválida.");
+//         break;
+//     };
+// }
+// Console.WriteLine("O programa se encerrou!");
+
+// -----------------------------------------------------------
+// Construindo um menu de opções simples.
+// string Opcao;
+
+// while(true)
+// {
+//     Console.Clear();
+//     Console.WriteLine("Digite a sua opção: ");
+//     Console.WriteLine("1 - cadastrar cliente");
+//     Console.WriteLine("2 - buscar cliente");
+//     Console.WriteLine("3 - apagar cliente");
+//     Console.WriteLine("4 - encerrar");
+
+//     Opcao = Console.ReadLine();
+
+//     switch(Opcao)
+//     {
+//         case "1":
+//         Console.WriteLine("Cadastro do cliente");
+//         break;
+
+//         case "2":
+//         Console.WriteLine("Buscar cliente");
+//         break;
+
+//         case "3":
+//         Console.WriteLine("Apagar cliente");
+//         break;
+
+//         case "4":
+//         Console.WriteLine("Encerrar");
+//         Environment.Exit(0);
+//         break;
+        
+//         default:
+//         Console.WriteLine("Opção inválida.");
+//         break;
+//     };
+
+// }
+
+// -----------------------------------------------------------
 // Estrutura de repetição.
+// do while
+// int soma = 0, numero = 0;
+
+// do
+// {
+//     Console.WriteLine("Digite um número: (0 para parar.) ");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero;
+
+// } while(numero != 0);
+
+// Console.WriteLine($"O total da soma dos números digitados é de: {soma}");
 // while
 
-int numero = 5;
-int contador = 0;
+// int numero = 5;
+// int contador = 0;
 
-while(contador <= 10)
-{
-    Console.WriteLine($"{contador}° execução: {numero} x {contador} = {numero * contador}");
-    contador++;
-}
+// while(contador <= 10)
+// {
+//     Console.WriteLine($"{contador + 1}° execução: {numero} x {contador} = {numero * contador}");
+//     contador++;
+
+//     if(contador == 6)
+//     {
+//         break;
+//     }
+// }
+
+//Console.WriteLine("Fim!");
 
 // For
 
